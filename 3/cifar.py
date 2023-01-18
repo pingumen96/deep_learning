@@ -3,8 +3,8 @@ from keras import datasets, layers, models, optimizers
 from keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 
-# check if using GPU
-print(tf.config.list_physical_devices('GPU'))
+# check for GPU
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
 IMG_CHANNELS = 3
 IMG_ROWS = 32
