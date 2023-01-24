@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+3/vgg16_weights_tf_dim_ordering_tf_kernels.h5
